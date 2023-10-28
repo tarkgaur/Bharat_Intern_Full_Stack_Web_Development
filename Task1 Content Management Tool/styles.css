@@ -1,0 +1,52 @@
+body {
+    font-family: Times New Roman;
+    text-align: center;
+    margin: 20px;
+}
+
+header {
+    background-color: #007BFF;
+    font-color: white;
+    padding: 10px;
+}
+
+h1 {
+	font-family: Century;
+    color: white;
+}
+
+.form {
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#content {
+    margin: 20px;
+}
+
+img, video {
+    max-width: 200%;
+}

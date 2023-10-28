@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Management Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body bgcolor = "#19191C">
+	<header>
+     <h1>Welcome to Content Management System</h1>
+    </header>
+	<br>
+	<img width = "500" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfW-H1zp-fSzWo28BOYJcmEm5rbGyKxQQ90A&usqp=CAU">
+
+	<h1> UNLEASH YOUR CREATIVITY </h1>
+	<font color = "#007BFF">
+	<h4 align = "left">Dive into the world of blogging and express your thoughts, ideas, and stories. Our Blog Builder provides a user-friendly interface to create captivating content and connect with your audience.</h4>
+	<h4 align = "right">Forget the hassle of coding and designing from scratch. Choose from a variety of pre-made templates and customize them to perfection. Create your masterpiece with just a few clicks.</h4>
+
+    <div class="form">
+        <label for="text-input">Add Text:</label>
+        <input type="text" id="text-input" placeholder="Enter text">
+    </div>
+
+    <div class="form">
+        <label for="image-input">Add Image:</label>
+        <input type="file" id="image-input" accept="image/*">
+        <img id="image-preview" alt="Image Preview">
+    </div>
+
+    <div class="form">
+        <label for="video-input">Add Video:</label>
+        <input type="file" id="video-input" accept="video/*">
+        <video id="video-preview" controls>
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <button id="add-button">Add Element</button>
+
+    <div id="content">
+        <!-- Content will be added here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
